@@ -1,0 +1,61 @@
+
+body{
+    background-color: skyblue;
+}
+
+
+h3{
+    font-size: 20px;
+    font-weight: bold
+}
+#cont{
+    display: grid;
+   grid-template-columns: repeat(1,1fr);
+   width: 25%;
+   margin: auto;
+   color:white;
+   font-size: 20px;
+   font-weight: bold;
+   box-shadow:rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+   background-color: gray;
+   text-align: center;
+    /* gap: 30px; */
+}
+#container{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    margin-top: 30px;
+    
+}
+#info{
+    display: flex;
+    width: 30%;
+    margin: auto;
+    gap: 30px;
+   
+    /* gap:10px; */
+}
+#city{
+    height: 30px;
+    width: 50%;
+    border-radius: 8px;
+    border: 0;
+    
+}
+#search{height: 30px;
+    width: 25%;
+    border-radius: 8px;
+    border: 0;
+    color: gray;
+    
+
+}
+h1{
+    font-size:50px;
+            text-align:center;
+            color:white;
+            /* font-family: 'Noto Sans', sans-serif; */
+            font-family: 'Square Peg', cursive;
+            margin-bottom:6px;
+}
